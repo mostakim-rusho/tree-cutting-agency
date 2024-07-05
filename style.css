@@ -52,7 +52,7 @@ nav {
 /* line section */
 .line {
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: #a020f0;
   margin: 20px 0;
 }
@@ -68,6 +68,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 120px;
 }
 
 .imges-h1 {
@@ -98,4 +99,117 @@ button {
   cursor: pointer;
   border-radius: 10px;
   margin-top: 20px;
+}
+.line2{
+ 
+}
+/* working area */
+.main_working{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 100px;
+ 
+  
+}
+.h2_working{
+  font-size: 40px;
+  font-weight: 800;
+  color: #000;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+.child_working{
+  width: 450px;
+  height: 270px;
+  background:#F5F8FF ;
+  border-radius: 10px;
+}
+.icon_working{
+  display: flex;
+  
+}
+.icon2{
+  width: 90px;
+  height: 90px;
+  background: #a020f0;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+  align-items: center; /* Add this */
+}
+#icon{
+  font-size: 36px; /* Adjust the size of the icon as needed */
+}
+.icon3{
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 1;
+  margin-top: 35px;
+}
+.text_working{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.main2_working{
+  display: flex;
+  width: 30%;
+}
+
+
+/* using chatgpt */
+.child_working {
+  width: 450px;
+  height: 270px;
+  background: #F5F8FF;
+  border-radius: 10px;
+  display: flex; /* Add this */
+  flex-direction: column; /* Add this */
+  align-items: center; /* Add this */
+  margin: 10px; /* Add this to give some space between cards */
+}
+
+.icon_working {
+  display: flex;
+  align-items: center; /* Add this */
+}
+
+.icon2 {
+  width: 90px;
+  height: 90px;
+  background: #a020f0;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon {
+  font-size: 36px; /* Adjust the size of the icon as needed */
+}
+
+.icon3 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 1;
+  margin-top: 20px; /* Adjust this for better vertical alignment */
+}
+
+.text_working {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center; /* Center text */
+}
+
+.main2_working {
+  display: flex;
+  flex-wrap: wrap; /* Add this */
+  width: 100%; /* Adjust this */
+  justify-content: center; /* Add this to center align child elements */
 }
