@@ -68,7 +68,8 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 120px;
+  
+  margin-bottom: 90px;
 }
 
 .imges-h1 {
@@ -85,6 +86,7 @@ nav {
   color: #ffffff;
   text-align: center;
   margin: 20px 0;
+  
 }
 
 button {
@@ -97,18 +99,17 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 30px;
   margin-top: 20px;
 }
-.line2{
  
-}
 /* working area */
 .main_working{
   width: 100%;
   height: 100%;
   background: #fff;
   padding: 100px;
+  border-top: 2px solid skyblue;
  
   
 }
@@ -213,3 +214,62 @@ button {
   width: 100%; /* Adjust this */
   justify-content: center; /* Add this to center align child elements */
 }
+/* health */
+.main_health {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-top: 2px solid skyblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid skyblue;
+}
+
+.child_health {
+  flex-basis: 50%;
+ 
+  width: auto; /* Adjust this width */
+  height: auto;
+ 
+}
+.h2_health{
+  font-size: 35px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+.p_health{
+  font-size: 18px;
+  margin-left: 150px;
+ 
+}
+ .btn_health{
+  background: #a020f0;
+  border: none;
+  color: #fff;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 150px;
+ }
+
+.images_health {
+  flex-basis: 50%;
+}
+
+.img_health {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Style the button */
+ 
