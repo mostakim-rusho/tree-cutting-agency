@@ -59,7 +59,7 @@ nav {
 
 /* images section */
 .imges {
-  background-image: url('one.jpg');
+  background-image: url("one.jpg");
   width: 90%;
   height: 740px;
   margin: 40px auto;
@@ -68,7 +68,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   margin-bottom: 90px;
 }
 
@@ -86,7 +86,6 @@ nav {
   color: #ffffff;
   text-align: center;
   margin: 20px 0;
-  
 }
 
 button {
@@ -102,18 +101,16 @@ button {
   border-radius: 30px;
   margin-top: 20px;
 }
- 
+
 /* working area */
-.main_working{
+.main_working {
   width: 100%;
   height: 100%;
   background: #fff;
   padding: 100px;
   border-top: 2px solid skyblue;
- 
-  
 }
-.h2_working{
+.h2_working {
   font-size: 40px;
   font-weight: 800;
   color: #000;
@@ -122,17 +119,16 @@ button {
   margin-bottom: 50px;
   margin-left: 150px;
 }
-.child_working{
+.child_working {
   width: 450px;
   height: 270px;
-  background:#F5F8FF ;
+  background: #f5f8ff;
   border-radius: 10px;
 }
-.icon_working{
+.icon_working {
   display: flex;
-  
 }
-.icon2{
+.icon2 {
   width: 90px;
   height: 90px;
   background: #a020f0;
@@ -142,31 +138,30 @@ button {
   justify-content: center; /* Add this */
   align-items: center; /* Add this */
 }
-#icon{
+#icon {
   font-size: 36px; /* Adjust the size of the icon as needed */
 }
-.icon3{
+.icon3 {
   font-weight: 800;
   font-size: 35px;
   line-height: 1;
   margin-top: 35px;
 }
-.text_working{
+.text_working {
   font-size: 25px;
   margin-left: 20px;
   margin-top: 10px;
 }
-.main2_working{
+.main2_working {
   display: flex;
   width: 30%;
 }
-
 
 /* using chatgpt */
 .child_working {
   width: 450px;
   height: 270px;
-  background: #F5F8FF;
+  background: #f5f8ff;
   border-radius: 10px;
   display: flex; /* Add this */
   flex-direction: column; /* Add this */
@@ -228,12 +223,17 @@ button {
 
 .child_health {
   flex-basis: 50%;
- 
+
   width: auto; /* Adjust this width */
   height: auto;
- 
 }
-.h2_health{
+.line_health {
+  width: 100%;
+  height: 2px;
+  background: #a020f0;
+  margin-top: 500px;
+}
+.h2_health {
   font-size: 35px;
   font-weight: 700;
   color: #000;
@@ -242,12 +242,11 @@ button {
   margin-bottom: 30px;
   margin-left: 150px;
 }
-.p_health{
+.p_health {
   font-size: 18px;
   margin-left: 150px;
- 
 }
- .btn_health{
+.btn_health {
   background: #a020f0;
   border: none;
   color: #fff;
@@ -260,7 +259,7 @@ button {
   border-radius: 10px;
   margin-top: 20px;
   margin-left: 150px;
- }
+}
 
 .images_health {
   flex-basis: 50%;
@@ -271,5 +270,67 @@ button {
   height: auto; /* Maintain aspect ratio */
 }
 
-/* Optional: Style the button */
- 
+/* pricing section */
+
+.main_pricing {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.card_pricing {
+  width: 450px;
+  height: auto;
+  background: #f5f8ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+}
+.h2_pricing {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 130px;
+}
+.p_pricing {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+.h2_card {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+  padding-top: 40px;
+}
+.h2_card_price {
+  margin-bottom: 50px;
+}
+.line_pricing {
+  width: 70%;
+  height: 2px;
+  background: #a020f0;
+  /* margin-top: 50p 0px auto auto; */
+  margin-bottom: 25px;
+}
+.sym {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.material-symbols-outlined {
+  margin-right: 8px; /* Optional: Add space between icon and text */
+}
+.btn_pricing{
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
