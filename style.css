@@ -334,3 +334,71 @@ button {
   margin-top: 70px;
   margin-bottom: 30px;
 }
+ .container_pricing{
+  display: flex;
+  margin-top: 50px auto;
+ }
+ /* pricing chat gpt */
+ .main_pricing {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the container within its parent */
+}
+
+.container_pricing {
+  display: flex;
+  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap; /* Allow the cards to wrap to the next line if necessary */
+  gap: 20px; /* Optional: Add space between the cards */
+  width: 100%; /* Ensure the container takes full width */
+  margin-top: 50px;
+}
+
+.card_pricing {
+  width: 450px;
+  height: auto;
+  background: #f5f8ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.main_pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the container within its parent */
+}
+.card_pricing {
+  width: 450px;
+  height: auto;
+  background: #f5f8ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.card_pricing {
+  width: 450px;
+  height: auto;
+  background: #f5f8ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.card_pricing {
+  width: 450px;
+  height: auto;
+  background: #f5f8ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
