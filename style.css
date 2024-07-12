@@ -510,50 +510,69 @@ button {
   padding-bottom: 50px;
 }
 
-/* card customize */
-.card_about {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
+/* card customize */   /* card customize */
+    .card_about {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      gap: 20px; /* Added to ensure space between cards */
+    }
 
-.card2_about {
-  width: 650px;
-  height: auto;
-  background: #fef0ee;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
+    .card2_about {
+      width: 650px;
+      background: #fef0ee;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
 
-.p_card_about {
-  font-size: 20px;
-  font-weight: 400;
-  color: #000;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  text-align: center;
-}
+    .p_card_about {
+      font-size: 20px;
+      font-weight: 400;
+      color: #000;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      text-align: center;
+    }
 
-.img_about {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-.name_about {
-  font-size: 30px;
-  font-weight: 500;
-  color: #000; 
-    text-align: center;
+    .img_about {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+
+    .name_about {
+      font-size: 30px;
+      font-weight: 500;
+      color: #000;
+      text-align: center;
+    }
+
+    .icon_about {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .p_img_about {
+      margin-bottom: 20px;
+    }
+
+    .fa-facebook, .fa-instagram {
+      background: #a020f0;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: white;
+    }
+  .card3_about{
+    background-color:#C2F2FF ;
     
-}
- 
- .icon_about{
-  display: flex;
-  margin-left: 20px;
- }
+  }
