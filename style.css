@@ -609,3 +609,40 @@ button {
   border-radius: 30px;
   margin-top: 20px;
 }
+
+.btn_booking:hover{
+  background: #fff;
+  color: #a020f0;
+}
+button:hover{
+  background: #fff;
+  color: #a020f0;
+}
+
+/* footer */
+ 
+  .footer {
+    width: 100%;
+    height: auto;
+    background: #f5f8ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+    align-items: center;
+  }
+  .thr {
+    /* margin-top: 100px; */
+  }
+  .thr2 {
+    display: flex;
+    gap: 10px;
+  }
+  .thr3 i {
+    font-size: 24px;
+    color: #a020f0;
+    transition: color 0.3s;
+    color: #f5f8ff;
+  }
+  .thr3 i:hover {
+    color: #000;
+  }
