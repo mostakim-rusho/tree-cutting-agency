@@ -617,6 +617,7 @@ button {
 button:hover{
   background: #fff;
   color: #a020f0;
+  border:  1px solid #a020f0;
 }
 
 /* footer */
@@ -630,9 +631,7 @@ button:hover{
     padding: 100px 50px;
     align-items: center;
   }
-  .thr {
-    /* margin-top: 100px; */
-  }
+   
   .thr2 {
     display: flex;
     gap: 10px;
@@ -645,4 +644,22 @@ button:hover{
   }
   .thr3 i:hover {
     color: #000;
+  }
+  /* footer2 */
+  .footer2 {
+    width: 100%;
+    height: auto;
+    background: #f5f8ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+  }
+  .footer3{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .footer4{
+    margin-bottom: 20px;
+    font-size: 20px;
   }
